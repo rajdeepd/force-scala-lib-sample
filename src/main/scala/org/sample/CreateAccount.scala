@@ -7,5 +7,6 @@ object CreateAccount{
 	    val sObject = new SObject("Account")
 	    val json = """{"name":"test_manpreet"}"""
 	    sObject.createSObject(json)
+
 	}
 }
